@@ -1,6 +1,4 @@
 
-# Advanced To-Do List App
-
 # Two separate lists
 todo_list = []
 completed_list = []
@@ -14,7 +12,7 @@ def display_list(items, title):
     print("---", title, "---")
 
     if len(items) == 0:
-        print("Your list is empty!")
+        print("Your list is empty...")
     else:
         for index in range(len(items)):
             print(f"{index}. {items[index]}")
